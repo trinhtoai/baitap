@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-02 03:02:04 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAyOzAyOjU3OjIxIFBNOzMwMDk="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAyOzAzOjAyOjA0IFBNOzE7MzEwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="a la canh tam giac &#13;&#10;h l&#224; chieu cao tam giac "/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="h"/>
+            <assign variable="s" expression="(1/2)*a*h"/>
+            <output expression="&quot;di&#7879;n t&#237;ch tam gi&#225;c l&#224;: &quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
