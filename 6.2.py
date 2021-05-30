@@ -1,8 +1,12 @@
-class hinhchunhat(a,b):
-    def__init__(self, a,b):
-        self.dai = a
-        self.rong = b
+class Shape():
     def area(self):
-        return self.dai * self.rong
-aCircle= Circle(2)
-print(aCircle.area())
+        return 0
+class Square:
+    def __init__(self,cd):
+        self.cd=cd
+    def area(self,):
+        a=1
+        return a
+a=Square(0)
+a.area()
+print(a)
